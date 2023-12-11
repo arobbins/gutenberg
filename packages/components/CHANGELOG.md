@@ -17,7 +17,7 @@
 -   `ToggleGroupControl`: react correctly to external controlled updates ([#56678](https://github.com/WordPress/gutenberg/pull/56678)).
 -   `ToolsPanel`: fix a performance issue ([#56770](https://github.com/WordPress/gutenberg/pull/56770)).
 -   `BorderControl`: adjust `BorderControlDropdown` Button size to fix misaligned border ([#56730](https://github.com/WordPress/gutenberg/pull/56730)).
--   `Button`: remove fixed width for `compact` sized Buttons ([#](https://github.com/WordPress/gutenberg/pull/)).
+-   `Button`: remove fixed width for `compact` and `small` sized Buttons ([#56949](https://github.com/WordPress/gutenberg/pull/56949)).
 
 ### Internal
 
