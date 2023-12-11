@@ -303,7 +303,7 @@ class TemplateRevertUtils {
 			);
 		}
 		await this.page.click(
-			'role=region[name="Editor settings"i] >> role=button[name="Actions"i]'
+			'role=region[name="Editor settings"i] >> role=tab[name="Actions"i]'
 		);
 		await this.page.click( 'role=menuitem[name=/Clear customizations/i]' );
 		await this.page.waitForSelector(
