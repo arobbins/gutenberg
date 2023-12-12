@@ -58,13 +58,6 @@
 	<exclude-pattern>./vendor/*</exclude-pattern>
 	<exclude-pattern>./test/php/gutenberg-coding-standards/*</exclude-pattern>
 
-	<rule ref="Generic.Commenting.DocComment.Empty">
-    	<exclude-pattern>phpunit/*</exclude-pattern>
-    </rule>
-	<rule ref="Generic.Commenting.DocComment.MissingShort">
-		<exclude-pattern>phpunit/*</exclude-pattern>
-	</rule>
-
 	<!-- Ignore filename error since it requires WP core build process change -->
 	<rule ref="WordPress.Files.FileName.InvalidClassFileName">
 		<exclude-pattern>/phpunit/*</exclude-pattern>
