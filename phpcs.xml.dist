@@ -9,7 +9,6 @@
 	</rule>
 
 	<rule ref="WordPress-Core"/>
-	<rule ref="WordPress-Docs"/>
 	<rule ref="WordPress.WP.I18n">
 		<properties>
 			<property name="text_domain" type="array">
@@ -58,9 +57,6 @@
 	<!-- Exclude third party libraries -->
 	<exclude-pattern>./vendor/*</exclude-pattern>
 	<exclude-pattern>./test/php/gutenberg-coding-standards/*</exclude-pattern>
-
-	<!-- Exclude files maintained in WordPress Core and backported to Gutenberg -->
-	<exclude-pattern>./lib/compat/wordpress-*/html-api/*.php</exclude-pattern>
 
 	<!-- These special comments are markers for the build process -->
 	<rule ref="Squiz.Commenting.InlineComment.WrongStyle">
